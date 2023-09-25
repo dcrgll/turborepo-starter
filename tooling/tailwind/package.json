@@ -1,0 +1,30 @@
+{
+  "name": "@dcrgll/tailwind-config",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules",
+    "lint": "eslint .",
+    "format": "prettier --check \"**/*.{mjs,ts,md,json}\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@dcrgll/eslint-config": "^0.2.0",
+    "@dcrgll/prettier-config": "^0.1.0",
+    "@dcrgll/tsconfig": "^0.1.0",
+    "eslint": "^8.49.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "tailwindcss": "3.3.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@dcrgll/eslint-config/base"
+    ]
+  },
+  "prettier": "@dcrgll/prettier-config"
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "@dcrgll/tsconfig/base.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json",
+    "baseUrl": ".",
+    "paths":{
+      "@/*": ["./*"],
+    }
+  },
+  "include": ["."],
+  "exclude": ["node_modules"]
+}
