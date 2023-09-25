@@ -12,7 +12,7 @@ If you are not familiar with the different technologies used in this project, pl
 - [NextAuth.js](https://next-auth.js.org)
 - [Drizzle](https://orm.drizzle.team)
 - [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+
 
 ## Learn More
 

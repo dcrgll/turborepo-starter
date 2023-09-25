@@ -11,18 +11,13 @@ const fontSans = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Create T3 Turbo",
-  description: "Simple monorepo with shared backend for web & mobile apps",
+  title: "Turborepo starter",
+  description: "Simple monorepo with shared backend for web & server apps",
   openGraph: {
-    title: "Create T3 Turbo",
-    description: "Simple monorepo with shared backend for web & mobile apps",
-    url: "https://create-t3-turbo.vercel.app",
-    siteName: "Create T3 Turbo"
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@jullerino",
-    creator: "@jullerino"
+    title: "Turborepo starter",
+    description: "Simple monorepo with shared backend for web & server apps",
+    url: "https://cargill.dev",
+    siteName: "Turborepo starter"
   }
 }
 
